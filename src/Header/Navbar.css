@@ -1,0 +1,131 @@
+.top_nav {
+  height: 0;
+}
+
+.top_nav .navbar{
+  padding: 30px 0;
+  
+}
+
+.top_nav .navbar .header-logo-top img{
+  width: 100%;
+}
+
+.top_nav .navbar #basic-navbar-nav {
+  justify-content: right;
+  flex-grow: unset;
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  z-index: 99;
+}
+
+.top_nav .navbar .navbar-nav a{
+  color: #232E35;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 25px !important;
+}
+
+.top_nav .navbar .navbar-nav a:first-child{
+  color: #232E35;
+  font-weight: 500;
+}
+
+.top_nav .navbar .navbar-nav a:nth-child(6){
+  border-right: 1px solid #969696;
+  padding-right: 60px !important;
+}
+
+/* .top_nav .navbar .navbar-nav a:last-child{
+  color: #fff;
+  background: #FF4F5A;
+  padding: 10px 36px !important;
+  border-radius: 7px;
+  font-weight: 600 !important;
+  font-size: 15px;
+  margin-left: 30px;
+} */
+div#basic-navbar-nav button {
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+
+
+
+/* responsive****************************************************************************************** */
+@media(max-width:576px){
+  .top_nav .navbar .header-logo-top {
+    width: 15%;
+  }
+}
+@media  screen and (min-width:994px){
+  .mobile-burger{
+  display:none;
+  }
+}
+
+
+.mobile-burger {
+  background: #0B394E;
+  box-shadow: 0px 4px 14px rgb(0 0 0 / 16%);
+  border-radius: 13px;
+  padding: 20px 0;
+  width: 100%;
+  color: #fff;
+  margin-top: 20px;
+}
+.mobile-burger a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #FFFFFF;
+  padding: 0px 0px 14px !important;
+  border-bottom: 1px solid #153F52;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 1rem 1rem;
+}
+.mobile-burger a.nav-item.nav-link{
+  color: #FFFFFF !important;
+
+}
+.top_nav .navbar .navbar-nav a:nth-child(6){
+  padding-right: 24px !important;
+}
+/* .top_nav {
+  display: none;
+} */
+ /* .mobile-burger a:last-child {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #FFFFFF;
+  padding: 0px 0px 14px !important;
+  border-bottom: 1px solid #153F52;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 1rem 1rem;
+  
+} */
+
+
+@media screen and (max-width: 480px){
+
+  /* .top_nav .navbar .navbar-nav a:last-child {
+ 
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+} */
+/* .custom-tarcking-burger {
+  width: 100%;
+ max-width: 417px;
+ } */
+}

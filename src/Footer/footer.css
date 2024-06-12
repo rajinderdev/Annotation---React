@@ -1,0 +1,37 @@
+.footer {
+    background: #E3E3E3;
+}
+.footer h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-link a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656D72;
+    text-decoration: none;
+}
+.platform {
+    display: flex;
+    gap: 15px;
+}
+.icon-head {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-download-btns a{
+    width: 40%;
+}
+
+.footer-download-btns a img{
+    width: 100%;
+}

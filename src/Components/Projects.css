@@ -1,0 +1,79 @@
+textarea {
+    width: 80%;
+    height: 200px;
+}
+.therepy-headings {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.therepy-select{
+    appearance: auto;
+}
+
+.search-filter input{
+    width: 308px;
+    height: 32px;
+    padding: 0px 31px;
+    font-size: 14px;
+}
+
+.search-filter input::placeholder{
+  opacity: 1 !important;
+  color: #0B394E !important;
+}
+
+/* ========== */
+.addnotes-wrapper {
+    display: block !important;
+}
+
+.addnotes-wrapper .addnote-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 0;
+    cursor: pointer;
+}
+.addnote-child{
+    box-shadow: unset !important;
+}
+.addnotes-wrapper .addnote-child img {
+    width: 40px;
+}
+
+.addnote-child h5 {
+    margin-bottom: 0 !important;
+}
+.addnote-child p {
+    margin: 0;
+}
+
+.timing {
+    gap: 10px;
+}
+
+.timing img {
+    width: 18px !important;
+    display: none;
+}
+
+.addnote-child.addone-value {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 2px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border-radius: 7px;
+}
+.addnote-child.addone-value img {
+    width: 20px;
+    object-fit: contain;
+}
+

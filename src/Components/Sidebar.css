@@ -1,0 +1,69 @@
+.side-bar-user-icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    margin: 0px 1rem 1rem;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #1C5067;
+}
+.side-bar-user-icon img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+}
+.side-bar-user-icon p{
+    /* font-family: 'Plus Jakarta Sans'; */
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 18px;
+color: #000;
+margin: 0;
+}
+.side-bar-user-icon p span {
+    color: #fff;
+}
+.sidenav {
+    background: #fff;
+    border-radius: 0px;
+    padding: 100px 0 7px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #0000001c;
+}
+.sidenav a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    color: #000;
+    padding: 0px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 1rem 1.3rem;
+    text-decoration: none;
+}
+
+.sidenav a:hover, .sidenav a:focus{
+    color: #f9610a;
+}
+
+.sidenav a.active{
+    color: #f9610a;
+}
+
+.sidenav a.active svg{
+    color: #f9610a;
+}
+
+.sidenav a div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}

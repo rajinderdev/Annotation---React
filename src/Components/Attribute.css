@@ -1,0 +1,31 @@
+
+button.attribut_edit_btn {
+    background-color: #fff;
+    border-color: #fff;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+button.attribut_edit_btn img {
+    width: 20px;
+}
+ 
+.attr-action-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+/* table.table.table-striped thead tr th {
+    border: 1px solid #0000007a;
+}
+table.table-bordered thead tr th {
+    background-color: #e5e9f2;
+}
+table.table-bordered tbody tr {
+    background-color: #fff !important;
+    border-bottom: 1px solid #0000007a;
+}
+table.table-bordered tbody tr td {
+    background-color: transparent;
+} */
